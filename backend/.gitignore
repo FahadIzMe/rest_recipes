@@ -1,0 +1,51 @@
+# Django
+*.pyc
+__pycache__/
+*.sqlite3
+*.pyo
+*.pyd
+db.sqlite3
+*.log
+*.pot
+
+# Virtual Environment
+venv/
+.env/
+.env.local
+.env*.local
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Static & Media
+/staticfiles/
+/static/
+/media/
+
+# Node & Frontend
+node_modules/
+/dist/
+/build/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.tmp
+
+# Database migrations (optional)
+*/migrations/*
+!*/migrations/__init__.py
+
+# Coverage & Testing
+.coverage
+htmlcov/
+.pytest_cache/
